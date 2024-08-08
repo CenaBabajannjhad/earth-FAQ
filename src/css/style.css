@@ -21,6 +21,8 @@
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 .gradient_bg {
   background: rgb(255, 255, 255);
