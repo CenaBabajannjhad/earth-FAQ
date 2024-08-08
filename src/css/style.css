@@ -20,8 +20,6 @@
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
 }
 .gradient_bg {
   background: rgb(255, 255, 255);
@@ -310,17 +308,34 @@ main {
     top: 20%;
   }
 }
+/* footer-el */
+.footer-el{
+  padding: 20px;
+  
+}
+.footer{
+  text-align: center;
+}
+.footer-title{
+  font-weight: 100;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
 /* first mobile */
 /* xs */
 @media screen and (min-width: 475px) {
   .container {
     max-width: 475px;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
 /* sm */
 @media screen and (min-width: 640px) {
   .container {
     max-width: 640px;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
   @keyframes earthMovment {
     0%{
@@ -365,14 +380,14 @@ main {
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
 /* lg */
 @media screen and (min-width: 1024px) {
   .container {
     max-width: 1024px;
-    padding-left: 70px;
-    padding-right: 70px;
   }
 }
 /* xl */
@@ -390,6 +405,9 @@ main {
     animation-iteration-count: infinite;
     left: 35%;
     top: 20%;
+  }
+  .footer{
+    text-align: left;
   }
   @keyframes earthMovment {
     0%{
@@ -434,5 +452,8 @@ main {
 @media screen and (min-width: 1536px) {
   .container {
     max-width: 1024px;
+  }
+  .footer{
+    text-align: left;
   }
 }
